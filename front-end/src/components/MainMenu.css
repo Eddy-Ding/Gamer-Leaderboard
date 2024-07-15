@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    overflow: hidden;
+}
+
+.mainmenu-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 100vh;
+}
+
+.mainmenu-image,
+.mainmenu-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.mainmenu-image {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.mainmenu-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.signin-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 0; /* Ensure the edges are sharp */
+}
+
+.signin-button:hover {
+    background-color: #0056b3;
+}
+
+.leaderboard-box {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    box-shadow: none;
+    text-align: center;
+}
