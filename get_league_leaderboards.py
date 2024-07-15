@@ -1,7 +1,7 @@
 import requests
 from pymongo import MongoClient
 
-api_key = "RGAPI-7a8c6d41-610b-4e79-8cb2-073b83b93e3e"
+api_key = "API_KEY"
 country = "americas"
 region = "na1"
 ranks = ["challengerleagues", "grandmasterleagues", "masterleagues"]
